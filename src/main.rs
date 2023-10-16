@@ -82,6 +82,20 @@ fn add_task(pending: &mut Vec<Task>) {
     pending.push(new_task);
 }
 
+fn remove_task(task_list: &mut Vec<Task>) {
+    let mut input = String::new();
+
+    print!("Task Name:");
+
+    io::stdin()
+        .read_line(&mut input)
+        .expect("Failed to read the line");
+
+    for i in o..task_list.len() {
+        // Use a list instead of vector
+    }
+}
+
 fn print_tasks(pending: &Vec<Task>) {
     if pending.is_empty() {
         println!("No pending tasks.");
