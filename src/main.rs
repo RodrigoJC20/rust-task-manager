@@ -43,7 +43,7 @@ fn main() {
                 wait_for_enter();
             }
             4 => {
-                println!("Editing task...");
+                println!("Editing task....");
                 wait_for_enter();
             }
             _ => {
